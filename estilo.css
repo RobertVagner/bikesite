@@ -1,0 +1,187 @@
+/*Formatação do fundo e da fonte*/
+.fundo{
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/*Formatação de uma área de 1024px*/
+#container{
+    margin:auto;
+    width: 1024px;
+}
+
+/*Formatação da classe capa*/
+.capa{
+
+}
+
+/*Formatação da classe logo*/
+.logo{
+    position: absolute;
+    left: 900px;
+    top: 510px;
+}
+
+/*Formatação da classe menu institucional*/
+.menuinst {
+   /* overflow: hidden; /*Oculta a barra de rolagem*/
+    background-color: rgb(12, 31, 141);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.menuinst a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.menuinst a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*Formatação da imagem da bike*/
+.bike{
+    margin-top: 10px;
+}
+
+/*Formatação da classe menu de produtos*/
+.menuprod{
+    background-color:  rgb(12, 31, 141);
+    width: 250px;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: 50px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+/*Formatação da classe menu de produtos da ul*/
+.menuprod ul{
+    
+}
+
+.menuprod ul li{
+    padding: 2px;
+}
+
+.menuprod ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.menuprod ul li a:hover{
+    background-color: rgb(72, 104, 247);
+    color: rgb(255, 167, 36);
+}
+
+/*Formatação do texto BIKE É LIBERDADE*/
+.text1{
+    text-transform: uppercase;
+    margin-top: -165px; /*tem que arrumar pq está negativo*/
+    margin-left: 140px;
+    font-size: 50px;
+}
+
+/*Edição base dos títulos do menu institucional*/
+.titmenu h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(12, 31, 141);
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.titmenu p {
+    font-size: 15px;
+}
+
+/*Voltar ao topo*/
+.titmenu a{
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    background-color: rgb(12, 31, 141);
+    padding: 0px 7px 0px 7px;
+    border-radius: 50px;
+    border: none;
+}
+
+.titmenu a:hover{
+    color: rgb(219, 223, 0);
+    background-color: rgb(84, 97, 175);
+}
+
+/*Texto quem somos*/
+.quemsomos{
+
+}
+
+/*Texto onde estamos*/
+.ondeestamos img{
+    width: 100%;
+}
+
+/*Fale Conosco*/
+.faleconosco{
+   margin-left: 30px;
+}
+
+/*Tabela do menu, criei uma tabela para colocar onde estamos e fale conosco lado a lado*/
+.tabelamenu{
+
+}
+
+/*Edição do botão enviar mensagem do menu fale conosco*/
+a.botao, input.botao{
+    background: #1f3c58;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+a.botao:hover, input.botao:hover{
+    background: #315e8a;
+    text-decoration: none;
+}
+/*Todas as tabelas com imagens dos produtos*/
+.tabelamenu2{
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.tabelamenu2 td{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabelamenu2 td img{
+    width: 90%;
+    border-radius: 50px;
+}
+
+/* css do rodapé da página*/
+.rodape{
+    background: rgb(12, 31, 141);
+    color: #ebebeb;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 100;
+    /*position: fixed;
+    bottom: 0;
+    width: 1024px;*/ /*para deixar o rodapé fixado*/
+}
